@@ -72,6 +72,6 @@
   font-size: 14px;
 }
 
-.form .haveAccount {
-  font-size: 14px;
+.form .haveAccount a {
+  color: rgb(58, 58, 228);
 }
