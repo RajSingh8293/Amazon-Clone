@@ -141,8 +141,8 @@
 const getData = async () => {
 
 
-	const fetchdata = await fetch('https://fakestoreapi.com/products')
-	const data = await fetchdata.json()
+	// const fetchdata = await fetch('https://fakestoreapi.com/products')
+	// const data = await fetchdata.json()
 
 	let dataValue = ''
 	data.forEach((value) => {
@@ -153,7 +153,7 @@ const getData = async () => {
 	
 		<div class="box-content">
 			<div class="box-text">
-				<a href="/Pages/productDetails.html">${value.description.slice(0, 40)}...
+				<a href="/Pages/productDetails.html"> ${value.description.slice(0, 40)}...
 	</a >
 			</div >
 			<div class="stars">

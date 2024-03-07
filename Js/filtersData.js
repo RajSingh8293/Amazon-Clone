@@ -39,7 +39,7 @@ const prices = [
 let getCategory = ''
 category.forEach((value) => {
 	getCategory += `<div class='filtersDiv'><input type='checkbox' value=${value.value} ><p class='filtersValues'> ${value.lable}</p></div>`
-	console.log(getCategory);
+	// console.log(getCategory);
 	return document.getElementById('filtersCategory').innerHTML = getCategory
 })
 
